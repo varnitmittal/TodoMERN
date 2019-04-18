@@ -7,7 +7,6 @@ const todosRoute = require('./routes/todos.router');
 const path = require('path');
 
 //MongoDB connection
-//var mUrl = 'mongodb+srv://adminv:<pass>@todomern-cluster-1xmp7.mongodb.net/test?retryWrites=true';
 var mUrl = 'mongodb://localhost/todomern';
 mongoose.connect(mUrl, {useNewUrlParser:true}, db =>{
 console.log("DB connected!!");
